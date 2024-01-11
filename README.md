@@ -1,30 +1,32 @@
 # CodeSnap
+## Dev by Arturo Cervantes Galindo  
+<p align="center"><img src="https://avatars.githubusercontent.com/u/133995595?v=4" width="200" alt="logo"></p>
 
-📸 Take beautiful screenshots of your code in VS Code!
+📸 ¡Toma capturas de pantalla hermosas de tu código en VS Code!
 
-## Features
+## Características
 
-- Quickly save screenshots of your code
-- Copy screenshots to your clipboard
-- Show line numbers
-- Many other configuration options
+- Guarda rápidamente capturas de pantalla de tu código.
+- Copia las capturas de pantalla al portapapeles.
+- Muestra números de línea.
+- Muchas otras opciones de configuración.
 
-## Usage Instructions
+## Instrucciones de uso
 
-1. Open the command palette (Ctrl+Shift+P on Windows and Linux, Cmd+Shift+P on OS X) and search for `CodeSnap`.
-2. Select the code you'd like to screenshot.
-3. Adjust the width of the screenshot if desired.
-4. Click the shutter button to save the screenshot to your disk.
+1. Abre la paleta de comandos (Ctrl+Shift+P en Windows y Linux, Cmd+Shift+P en OS X) y busca `CodeSnap`.
+2. Selecciona el código que deseas capturar.
+3. Ajusta el ancho de la captura de pantalla si lo deseas.
+4. Haz clic en el botón de obturación para guardar la captura de pantalla en tu disco.
 
-**Tips**:
+**Consejos**:
 
-- You can also start CodeSnap by selecting code, right clicking, and clicking CodeSnap
-- If you'd like to bind CodeSnap to a hotkey, open up your keyboard shortcut settings and bind `codesnap.start` to a custom keybinding.
-- If you'd like to copy to clipboard instead of saving, click the image and press the copy keyboard shortcut (defaults are Ctrl+C on Windows and Linux, Cmd+C on OS X), or bind `codesnap.shutterAction` to `copy` in your settings
+- También puedes iniciar CodeSnap seleccionando el código, haciendo clic derecho y seleccionando CodeSnap.
+- Si deseas asignar un atajo de teclado a CodeSnap, abre la configuración de atajos de teclado y asigna `codesnap.start` a un atajo personalizado.
+- Si deseas copiar al portapapeles en lugar de guardar, haz clic en la imagen y presiona el atajo de teclado para copiar (los valores predeterminados son Ctrl+C en Windows y Linux, Cmd+C en OS X), o asigna `codesnap.shutterAction` a `copy` en tu configuración.
 
-## Examples
+## Ejemplos
 
-[Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) + [Operator Mono](https://www.typography.com/fonts/operator/styles/operatormono)
+[Tema Material](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) + [Operator Mono](https://www.typography.com/fonts/operator/styles/operatormono)
 
 ![Example 1](https://raw.githubusercontent.com/kufii/CodeSnap/master/examples/material_operator-mono.png)
 
@@ -36,34 +38,34 @@ Monokai + [Fira Code](https://github.com/tonsky/FiraCode)
 
 ![Example 3](https://raw.githubusercontent.com/kufii/CodeSnap/master/examples/monokai_fira-code.png)
 
-## Configuration
+## Configuración
 
-CodeSnap is highly configurable. Here's a list of settings you can change to tune the way your screenshots look:
+CodeSnap es altamente configurable. Aquí tienes una lista de configuraciones que puedes cambiar para ajustar la apariencia de tus capturas de pantalla:
 
-**`codesnap.backgroundColor`:** The background color of the snippet's container. Can be any valid CSS color.
+**`codesnap.backgroundColor`:** El color de fondo del contenedor del fragmento de código. Puede ser cualquier color CSS válido.
 
-**`codesnap.boxShadow`:** The CSS box-shadow for the snippet. Can be any valid CSS box shadow.
+**`codesnap.boxShadow`:** La sombra de caja CSS para el fragmento de código. Puede ser cualquier sombra de caja CSS válida.
 
-**`codesnap.containerPadding`:** The padding for the snippet's container. Can be any valid CSS padding.
+**`codesnap.containerPadding`:** El relleno para el contenedor del fragmento de código. Puede ser cualquier relleno CSS válido.
 
-**`codesnap.roundedCorners`:** Boolean value to use rounded corners or square corners for the window.
+**`codesnap.roundedCorners`:** Valor booleano para usar esquinas redondeadas o esquinas cuadradas para la ventana.
 
-**`codesnap.showWindowControls`:** Boolean value to show or hide OS X style window buttons.
+**`codesnap.showWindowControls`:** Valor booleano para mostrar u ocultar los botones de ventana al estilo de OS X.
 
-**`codesnap.showWindowTitle`:** Boolean value to show or hide window title `folder_name - file_name`.
+**`codesnap.showWindowTitle`:** Valor booleano para mostrar u ocultar el título de la ventana `nombre_de_carpeta - nombre_de_archivo`.
 
-**`codesnap.showLineNumbers`:** Boolean value to show or hide line numbers.
+**`codesnap.showLineNumbers`:** Valor booleano para mostrar u ocultar números de línea.
 
-**`codesnap.realLineNumbers`:** Boolean value to start from the real line number of the file instead of 1.
+**`codesnap.realLineNumbers`:** Valor booleano para comenzar desde el número de línea real del archivo en lugar de 1.
 
-**`codesnap.transparentBackground`:** Boolean value to use a transparent background when taking the screenshot.
+**`codesnap.transparentBackground`:** Valor booleano para usar un fondo transparente al tomar la captura de pantalla.
 
-**`codesnap.target`:** Either `container` to take the screenshot with the container, or `window` to only take the window.
+**`codesnap.target`:** Ya sea `container` para tomar la captura de pantalla con el contenedor, o `window` para tomar únicamente la ventana.
 
-**`codesnap.shutterAction`:** Either `save` to save the screenshot into a file, or `copy` to copy the screenshot into the clipboard.
+**`codesnap.shutterAction`:** Ya sea `save` para guardar la captura de pantalla en un archivo, o `copy` para copiar la captura de pantalla al portapapeles.
 
-## Acknowledgements
+## Reconocimientos
 
-The great [Polacode](https://github.com/octref/polacode), for the initial concept.
+El genial [Polacode](https://github.com/octref/polacode), por el concepto inicial.
 
-[Carbon](https://carbon.now.sh/) for some design inspiration.
+[Carbon](https://carbon.now.sh/) por algunas ideas de diseño.
