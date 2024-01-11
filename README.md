@@ -69,3 +69,4 @@ CodeCap es altamente configurable. Aquí tienes una lista de configuraciones que
 El genial [Polacode](https://github.com/octref/polacode), por el concepto inicial.
 
 [Carbon](https://carbon.now.sh/) por algunas ideas de diseño.
+[CodeSnap](https://codesnap.dev/) por la inspiracion
