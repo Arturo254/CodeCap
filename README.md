@@ -1,4 +1,4 @@
-# CodeSnap
+# CodeCap
 ## Dev by Arturo Cervantes Galindo  
 <p align="center"><img src="https://avatars.githubusercontent.com/u/133995595?v=4" width="200" alt="logo"></p>
 
@@ -40,7 +40,7 @@ Monokai + [Fira Code](https://github.com/tonsky/FiraCode)
 
 ## Configuración
 
-CodeSnap es altamente configurable. Aquí tienes una lista de configuraciones que puedes cambiar para ajustar la apariencia de tus capturas de pantalla:
+CodeCap es altamente configurable. Aquí tienes una lista de configuraciones que puedes cambiar para ajustar la apariencia de tus capturas de pantalla:
 
 **`codesnap.backgroundColor`:** El color de fondo del contenedor del fragmento de código. Puede ser cualquier color CSS válido.
 
